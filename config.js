@@ -1,8 +1,8 @@
 window.LANDING_CONFIG = {
   links: [
-    { title: "Explore our work", subtitle: "Ideas brought to life.", icon: "↗", url: "" },
-    { title: "Let's work together", subtitle: "Your next chapter starts with a conversation.", icon: "+", url: "" },
-    { title: "Follow the unknown", subtitle: "A closer look at what we're creating.", icon: "◎", url: "" },
-    { title: "Get in touch", subtitle: "Good things start with a hello.", icon: "✳", url: "" }
+    { title: "Explore our work", subtitle: "See how we build brands people remember.", icon: "↗", url: "" },
+    { title: "Work with Brandem", subtitle: "Tell us what you're building.", icon: "+", url: "" },
+    { title: "Our services", subtitle: "Strategy, identity, content, and campaigns.", icon: "◎", url: "" },
+    { title: "Follow Brandem", subtitle: "Ideas, work, and what we're making next.", icon: "✳", url: "" }
   ]
 };
