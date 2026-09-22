@@ -16,7 +16,7 @@ header{padding:28px max(24px,5vw);border-bottom:1px solid var(--line)}
 .header-logo{display:block;width:clamp(122px,18vw,180px)}
 .header-logo img,.hero-logo{display:block;width:100%;height:auto}
 .header-label{text-align:right;font-size:10px;letter-spacing:.12em;line-height:1.55}
-.page-content{width:min(calc(100% - 40px),620px);margin:0 auto;padding:64px 0 48px;flex:1}
+.page-content{width:min(calc(100% - 40px),620px);margin:0 auto;padding:54px 0 48px;flex:1}
 .identity{text-align:center}
 .hero-logo{width:min(100%,440px);margin:0 auto 40px}
 .eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase}
@@ -67,7 +67,7 @@ footer{padding:24px max(24px,5vw);border-top:1px solid var(--line);font-size:10p
 body.intro-active{overflow:hidden}
 
 @media(max-width:520px){
-  header{padding:22px 20px}.header-logo{width:120px}.header-label{font-size:8px}.page-content{padding-top:48px}
+  .page-content{padding-top:40px}
   .hero-logo{width:min(92%,350px);margin-bottom:34px}h1{font-size:43px}.description{font-size:15px}
   .section-label{margin-top:44px}.link-card{min-height:82px;padding:17px 14px;gap:12px}.link-title{font-size:16px}.link-subtitle{font-size:12px}.coming-soon{font-size:7px}
   footer{padding:22px 20px;font-size:8px}.closing{font-size:9px}
