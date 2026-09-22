@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101210">
+  <meta name="description" content="Unknown Marketing. Make yourself known.">
+  <title>Unknown Marketing — Make yourself known.</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <section class="intro" id="intro" aria-label="Welcome to Unknown Marketing" hidden>
+    <video id="intro-video" playsinline muted preload="auto" aria-label="Unknown Marketing introduction" hidden></video>
+    <div class="intro-placeholder" id="intro-placeholder">
+      <span class="eyebrow">THIS IS JUST THE BEGINNING</span>
+      <div class="intro-wordmark">UNKNOWN<span>®</span></div>
+      <p>Make yourself known.</p>
+      <span class="placeholder-note">INTRO VIDEO COMING SOON</span>
+    </div>
+    <div class="intro-top"><span class="wordmark">UNKNOWN<span>®</span></span><span class="eyebrow">THE INTRODUCTION</span></div>
+    <div class="intro-bottom"><button id="sound" class="quiet-button" hidden>Sound off</button><button id="play" class="quiet-button" hidden>Play intro</button><button id="skip" class="quiet-button">Enter site <span aria-hidden="true">↗</span></button></div>
+    <div class="progress-track" aria-hidden="true"><div id="progress"></div></div>
+  </section>
+  <main id="landing">
+    <header><a class="wordmark" href="./" aria-label="Unknown Marketing home">UNKNOWN<span>®</span></a><span class="header-label">INDEPENDENT THINKING.<br>UNMISTAKABLE IMPACT.</span></header>
+    <div class="page-content">
+      <section class="identity" aria-labelledby="headline">
+        <div class="brand-icon" aria-hidden="true">u<span>↗</span></div>
+        <div class="eyebrow location"><span class="status-dot"></span> UNKNOWN MARKETING</div>
+        <h1 id="headline" tabindex="-1">Make yourself<br><em>known.</em></h1>
+        <p class="description">Big ideas. Real connections.<br>Everything starts here.</p>
+        <div class="section-label"><span>FIND YOUR NEXT MOVE</span><span aria-hidden="true">↓</span></div>
+      </section>
+      <nav id="links" aria-label="Our links"></nav>
+      <div class="closing"><span>A LITTLE UNKNOWN. A LOT OF POSSIBILITY.</span><button id="replay" hidden>Replay intro <span aria-hidden="true">↺</span></button></div>
+    </div>
+    <footer><span>© <span id="year">2026</span> UNKNOWN MARKETING</span><span>BE SEEN. BE REMEMBERED.</span></footer>
+  </main>
+  <noscript><p class="noscript">Our links are coming soon. Enable JavaScript to see the intro experience.</p></noscript>
+</body>
+</html>
