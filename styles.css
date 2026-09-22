@@ -3,8 +3,8 @@
 #intro{background:#f6f1e6;visibility:hidden;pointer-events:none;overflow:hidden}
 #intro.running{visibility:visible;pointer-events:auto}
 #intro .intro-logo{position:relative;width:clamp(145px,32vw,260px);aspect-ratio:315/350}
-#intro .intro-logo object{position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none;background:transparent;mix-blend-mode:multiply}
-#intro-logo-base{filter:grayscale(1)}
+#intro .intro-logo object{position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none;background:#f6f1e6}
+#intro-logo-base{filter:none}
 #intro-logo-color{clip-path:polygon(0% 100%,0% 100%,0% 100%)}
 #intro #skip{position:absolute;right:max(24px,env(safe-area-inset-right));bottom:max(24px,env(safe-area-inset-bottom));border-color:#191a1e55;background:#f6f1e6;color:#191a1e}
 #intro #skip span{color:#0066ff}
