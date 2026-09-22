@@ -11,17 +11,12 @@
   <script src="app.js" defer></script>
 </head>
 <body>
-  <section class="intro" id="intro" aria-label="Welcome to Unknown Marketing" hidden>
-    <video id="intro-video" playsinline muted preload="auto" aria-label="Unknown Marketing introduction" hidden></video>
-    <div class="intro-placeholder" id="intro-placeholder">
-      <span class="eyebrow">THIS IS JUST THE BEGINNING</span>
-      <div class="intro-wordmark">UNKNOWN<span>®</span></div>
-      <p>Make yourself known.</p>
-      <span class="placeholder-note">INTRO VIDEO COMING SOON</span>
+  <section class="intro" id="intro" aria-label="Brand introduction" aria-hidden="true">
+    <div class="intro-logo" aria-hidden="true">
+      <object id="intro-logo-base" data="assets/intro-logo.svg" type="image/svg+xml" tabindex="-1"></object>
+      <object id="intro-logo-color" data="assets/intro-logo.svg" type="image/svg+xml" tabindex="-1"></object>
     </div>
-    <div class="intro-top"><span class="wordmark">UNKNOWN<span>®</span></span><span class="eyebrow">THE INTRODUCTION</span></div>
-    <div class="intro-bottom"><button id="sound" class="quiet-button" hidden>Sound off</button><button id="play" class="quiet-button" hidden>Play intro</button><button id="skip" class="quiet-button">Enter site <span aria-hidden="true">↗</span></button></div>
-    <div class="progress-track" aria-hidden="true"><div id="progress"></div></div>
+    <button id="skip" class="quiet-button">Skip intro <span aria-hidden="true">↗</span></button>
   </section>
   <main id="landing">
     <header><a class="wordmark" href="./" aria-label="Unknown Marketing home">UNKNOWN<span>®</span></a><span class="header-label">INDEPENDENT THINKING.<br>UNMISTAKABLE IMPACT.</span></header>
