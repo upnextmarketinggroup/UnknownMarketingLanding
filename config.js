@@ -1,8 +1,8 @@
 window.LANDING_CONFIG = {
   links: [
-    { title: "Explore our work", subtitle: "See how we build brands people remember.", icon: "↗", url: "" },
-    { title: "Work with Brandem", subtitle: "Tell us what you're building.", icon: "+", url: "" },
-    { title: "Our services", subtitle: "Strategy, identity, content, and campaigns.", icon: "◎", url: "" },
-    { title: "Follow Brandem", subtitle: "Ideas, work, and what we're making next.", icon: "✳", url: "" }
+    { title: "Fill out the form", subtitle: "Connect with us.", icon: "↗", url: "" },
+    { title: "Visit our website", subtitle: "Explore Brandem.", icon: "+", url: "https://upnextmarketinggroup.github.io/UnknownMarketing/" },
+    { title: "Instagram", subtitle: "Follow Brandem.", icon: "◎", url: "" },
+    { title: "Email us", subtitle: "Start a conversation.", icon: "✉", url: "" }
   ]
 };
