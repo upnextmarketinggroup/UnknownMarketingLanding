@@ -26,6 +26,10 @@ h1{font-family:'Antic',Arial,sans-serif;font-size:clamp(38px,8vw,62px);font-weig
 h1:focus{outline:none}
 h1 em{font-style:normal;color:var(--blue)}
 .description{width:min(100%,470px);margin:0 auto;font-size:17px;line-height:1.55;color:#505157}
+.video-placeholder{width:100%;aspect-ratio:16/9;margin:28px auto 0;border:1px solid var(--ink);border-radius:6px;background:linear-gradient(145deg,#e8e1d3,#f6f1e6);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;color:var(--ink)}
+.video-placeholder:focus{outline:none}
+.play-icon{display:grid;place-items:center;width:62px;height:62px;padding-left:4px;border:1px solid var(--ink);border-radius:50%;font-size:18px;color:var(--blue)}
+.video-label{font-size:10px;letter-spacing:.16em}
 .section-label{display:flex;justify-content:space-between;align-items:center;margin:52px 0 14px;font-size:10px;letter-spacing:.12em}
 .section-label span:last-child{font-size:20px;color:var(--blue)}
 nav{display:grid;gap:10px}
