@@ -8,6 +8,12 @@ The logo fills with color, its apostrophe launches upward, and the landing page 
 
 Edit `links` in `config.js`. Each item has `title`, `subtitle`, `icon`, and `url`. Empty URLs display non-clickable Coming soon cards. Set a full `https://` URL, `mailto:` address, or `tel:` number to activate a card.
 
+## Restore the video area
+
+The video placeholder above the links is temporarily hidden until the video is ready. Its original markup remains in `index.html` (the `.video-placeholder` block), and its styling remains in `styles.css`. The `hidden` attribute removes the entire box from the layout without leaving an empty video-sized space.
+
+To restore the original placeholder, remove `hidden` from that block. When the finished video is available, replace the play icon and label with the video player and update the block's accessibility attributes to describe the video. The animated logo intro is separate and continues to work as before.
+
 ## Preview locally
 
 Run `python3 -m http.server 8080` in this folder and visit http://localhost:8080.
